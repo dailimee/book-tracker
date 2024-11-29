@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Tracker</h1>
+        
+        <div class="add-book">
+            <input type="text" id="book-title" placeholder="Enter Book Title" />
+            <input type="text" id="book-author" placeholder="Enter Book Author" />
+            <button id="add-book-btn">Add Book</button>
+        </div>
+        
+        <div class="tabs">
+            <button id="want-to-read" class="tab-btn">Want to Read</button>
+            <button id="reading" class="tab-btn">Currently Reading</button>
+            <button id="read" class="tab-btn">Read</button>
+        </div>
+        
+        <div id="book-list" class="book-list">
+            <!-- Books will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
